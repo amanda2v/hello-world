@@ -9,6 +9,9 @@ import { WaringAlertComponent } from './waring-alert/waring-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { UsernameDemoComponent } from './username-demo/username-demo.component';
 import { BindingDemoComponent } from './binding-demo/binding-demo.component';
+import { GameControlComponent } from './game-control/game-control.component';
+import { OddComponent } from './odd/odd.component';
+import { EvenComponent } from './even/even.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { BindingDemoComponent } from './binding-demo/binding-demo.component';
     WaringAlertComponent,
     SuccessAlertComponent,
     UsernameDemoComponent,
-    BindingDemoComponent
+    BindingDemoComponent,
+    GameControlComponent,
+    OddComponent,
+    EvenComponent
   ],
   imports: [
     BrowserModule,
